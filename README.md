@@ -51,7 +51,7 @@ please read the file [build_system.md](documentation/build_system.md).
 | [QEMU](http://wiki.qemu.org/Main_Page) |`PLATFORM=vexpress-qemu_virt`|
 | [STMicroelectronics b2120 - h310 / h410](http://www.st.com/web/en/catalog/mmc/FM131/SC999/SS1628/PF258776) |`PLATFORM=stm-cannes`|
 | [STMicroelectronics b2020-h416](http://www.st.com/web/catalog/mmc/FM131/SC999/SS1633/PF253155?sc=internet/imag_video/product/253155.jsp)|`PLATFORM=stm-orly2`|
-| [ALLWINNER A80 Board](http://www.allwinnertech.com/en/clq/processora/A80.html)|`PLATFORM=sunxi`|
+| [Allwinner A80 Board](http://www.allwinnertech.com/en/clq/processora/A80.html)|`PLATFORM=sunxi`|
 
 ## 4. Get and build the software
 There are a couple of different build options depending on the target you are
@@ -432,7 +432,7 @@ The output image name is a80_android_board.img.
 ##### 4.6.3.5 Download android image
 Use Allwinner PhoenixSuit tool to download to A80 board.
 Choose the output image(a80_android_board.img),
-Choose download, 
+Choose download,
 Waiting for the download complete.
 
 #### 4.6.4 Boot and run the software on A80 Board
