@@ -10,7 +10,7 @@
     4. [ARM Juno board](#43-juno)
     4. [QEMU](#44-qemu)
     4. [STMicroelectronics boards](#45-stmicroelectronics-boards)
-    4. [Allwinner A80 board](#46-Allwinner-A80)
+    4. [Allwinner A80](#46-Allwinner-A80)
 5. [Coding standards](#5-coding-standards)
 	5. [checkpatch](#51-checkpatch)
 
