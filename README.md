@@ -10,6 +10,7 @@
     4. [ARM Juno board](#43-juno)
     4. [QEMU](#44-qemu)
     4. [STMicroelectronics boards](#45-stmicroelectronics-boards)
+    4. [Allwinner A80 board]
 5. [Coding standards](#5-coding-standards)
 	5. [checkpatch](#51-checkpatch)
 
@@ -430,7 +431,7 @@ The output image name is a80_android_board.img.
 
 ##### 4.6.3.5 Download android image
 Use Allwinner PhoenixSuit tool to download to A80 board.
-Choose the output image(a80_android_board.img), 
+Choose the output image(a80_android_board.img),
 Choose download, 
 Waiting for the download complete.
 
@@ -441,9 +442,11 @@ You can install optee linux kernel driver optee.ko,
 Load optee-client deamon tee-supplicant,
 Run optee example helo world application.
 This is done by the following lines:
+```
 $ insmod /system/vendor/modules/optee.ko
 $ /system/bin/tee-supplicant &
 $ /system/bin/tee-helloworld
+```
 Enjoying optee os on A80 board.
 
 ## 5. Coding standards
